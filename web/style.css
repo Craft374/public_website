@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Gmarket';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'yg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    background-color: rgb(40, 40, 40);
+    height: 70rem;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#main {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 1000px;
+    display: flex;
+    flex-direction: column;
+    line-height: 100%;
+}
+
+blog_name {
+    /* color: rgb(255, 167, 9); */
+    font-size: 5rem;
+    color: rgb(5, 157, 245);
+    height: 3rem;
+    line-height: 6rem;
+    width: 100%;
+    max-width: 50rem;
+    font-weight: bold;
+    margin: 0.4rem 0 0.4rem 0;
+    text-align: center;
+    font-family: 'yg';
+}
+
+blog {
+    padding-top: 3rem;
+    color: white;
+    font-family: 'Gmarket';
+}
+
+.border {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-width: 100px;
+    max-width: 500px;
+    background-color: white;
+}
+.border blog {
+    font-size: 18px;
+    color: rgb(50, 60, 150);
+    line-height: 1.5;
+    font-family: 'Gmarket';
+}
+
+.button_test {
+    width: 100px;
+    height: 100px;
+    font-size: 2rem;
+    color: rgb(5, 157, 245);
+    font-family: 'yg';
+}
